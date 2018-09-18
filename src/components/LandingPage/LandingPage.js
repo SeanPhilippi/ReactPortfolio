@@ -1,9 +1,8 @@
 import React from 'react';
-import Nav from './Nav/Nav';
+import Nav from '../Nav/Nav';
+// import SocialMedia from '@SocialMedia/SocialMedia';
 
-import './Nav.css';
-
-export default const LandingPage = () => {
+const LandingPage = () => {
 
   return (
     <div className="landing-page">
@@ -14,9 +13,11 @@ export default const LandingPage = () => {
           <div className="tagline">
             Web Dev | UX Design | Open-Source Enthusiast
           </div>
-            <SocialIcons/>
+            {/* <SocialMedia/> */}
         </div>
       </main>
     </div>
   )
 }
+
+export default LandingPage;
