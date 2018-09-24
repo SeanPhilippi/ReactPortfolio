@@ -4,7 +4,7 @@ import './AboutPage.css';
 
 const AboutPage = () => {
 
-  return (
+  return
     <div className="about-page">
       <div className="content-grid">
         <h1>About</h1>
@@ -13,7 +13,7 @@ const AboutPage = () => {
             I like Javascript and everything web.
           </p>
           <p>
-            Blah blah blah more about me, you know you wanna hire me ;) Lorem ipsum
+            Blah blah blah more about me, you know you wanna hire me  Lorem ipsum
             dolor sit amet, consectetur adipisicing elit. Aspernatur sed perspiciatis
             quidem assumenda nostrum dolores, amet totam quam laudantium. Illum labore,
             fugiat molestias laudantium excepturi cum necessitatibus fuga delectus odio.
@@ -27,7 +27,6 @@ const AboutPage = () => {
         </div>
       </div>
     </div>
-  )
 }
 
 export default AboutPage;
