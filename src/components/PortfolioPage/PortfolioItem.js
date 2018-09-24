@@ -1,37 +1,88 @@
 import React from 'react';
+import './PortfolioItem.css'
 
 const PortfolioItem = () => {
   return (
     <div className="portfolio-wrapper">
-      <div className="portfolio-item">
-        Tic-Tac-Toe
+      <div className="portfolio-row">
+        <div className="portfolio-item">
+          <div className="project-title">
+            Tic-Tac-Toe
+          </div>
+          <div className="item-desc">
+            Tic-Tac-Toe playable in the console
+          </div>
+          <div className="item-link">
+            <a target="_blank" rel="noopener noreferrer" href="">project</a>
+            <a target="_blank" rel="noopener noreferrer" href="">github</a>
+          </div>
+        </div>
+        <div className="portfolio-item">
+          <div className="project-title">
+            Towers of Hanoi
+          </div>
+          <div className="item-desc">
+            Towers of Hanoi playable in the console
+          </div>
+          <div className="item-link">
+            <a target="_blank" rel="noopener noreferrer" href="">project</a>
+            <a target="_blank" rel="noopener noreferrer" href="">github</a>
+          </div>
+        </div>
       </div>
-      <div className="item-desc">
-        Tic-Tac-Toe build for console
+
+      <div className="portfolio-row">
+        <div className="portfolio-item">
+          <div className="project-title">
+            Checkers
+          </div>
+          <div className="item-desc">
+            Checkers playable in the console
+          </div>
+          <div className="item-link">
+            <a target="_blank" rel="noopener noreferrer" href="">project</a>
+            <a target="_blank" rel="noopener noreferrer" href="">github</a>
+          </div>
+        </div>
+        <div className="portfolio-item">
+          <div className="project-title">
+            Future Project
+          </div>
+          <div className="item-desc">
+            Coming soon...
+          </div>
+          <div className="item-link">
+            <a target="_blank" rel="noopener noreferrer" href="">project</a>
+            <a target="_blank" rel="noopener noreferrer" href="">github</a>
+          </div>
+        </div>
       </div>
-      <div className="item-link">
-        <a target="_blank" rel="noopener noreferrer" href="">project</a>
-        <a target="_blank" rel="noopener noreferrer" href="">github</a>
-      </div>
-      <div className="portfolio-item">
-        Towers of Hanoi
-      </div>
-      <div className="item-desc">
-        Towers of Hanoi blah blah
-      </div>
-      <div className="item-link">
-        <a target="_blank" rel="noopener noreferrer" href="">project</a>
-        <a target="_blank" rel="noopener noreferrer" href="">github</a>
-      </div>
-      <div className="portfolio-item">
-        To-do List
-      </div>
-      <div className="item-desc">
-        To-do list build in React
-      </div>
-      <div className="item-link">
-        <a target="_blank" rel="noopener noreferrer" href="">project</a>
-        <a target="_blank" rel="noopener noreferrer" href="">github</a>
+
+      <div className="portfolio-row">
+        <div className="portfolio-item">
+          <div className="project-title">
+            Future Project
+          </div>
+          <div className="item-desc">
+            Coming soon...
+          </div>
+          <div className="item-link">
+            <a target="_blank" rel="noopener noreferrer" href="">project</a>
+            <a target="_blank" rel="noopener noreferrer" href="">github</a>
+          </div>
+        </div>
+        <div className="portfolio-item">
+          <div className="project-title">
+            Future Project
+          </div>
+          <div className="item-desc">
+            Coming soon...
+          </div>
+          <div className="item-link">
+            <a target="_blank" rel="noopener noreferrer" href="">project</a>
+            <a target="_blank" rel="noopener noreferrer" href="">github</a>
+          </div>
+        </div>
       </div>
     </div>
   )

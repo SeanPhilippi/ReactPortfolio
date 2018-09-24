@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+.dev-landing-page {
+  font-family: 'Roboto', sans-serif;
+  background-color: #ffffff;
+  background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
+}
+
+h1 {
+  padding: 1rem 0;
+  font-size: 3rem;
+  font-weight: 900;
+  color: #3dc0b0;
+}

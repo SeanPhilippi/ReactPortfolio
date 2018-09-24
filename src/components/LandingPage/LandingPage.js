@@ -1,6 +1,7 @@
 import React from 'react';
 import Nav from '../Nav/Nav';
 import SocialMedia from '../SocialMedia/SocialMedia';
+import './LandingPage.css';
 
 const LandingPage = () => {
 
