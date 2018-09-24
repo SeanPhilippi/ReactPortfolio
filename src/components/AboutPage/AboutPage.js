@@ -4,7 +4,7 @@ import './AboutPage.css';
 
 const AboutPage = () => {
 
-  return
+  return (
     <div className="about-page">
       <div className="content-grid">
         <h1>About</h1>
@@ -27,6 +27,7 @@ const AboutPage = () => {
         </div>
       </div>
     </div>
+  )
 }
 
 export default AboutPage;

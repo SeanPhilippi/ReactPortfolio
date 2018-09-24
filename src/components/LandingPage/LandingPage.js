@@ -4,7 +4,7 @@ import SocialMedia from '../SocialMedia/SocialMedia';
 
 const LandingPage = () => {
 
-  return
+  return (
     <div className="landing-page">
       <Nav/>
       <main>
@@ -17,6 +17,7 @@ const LandingPage = () => {
         </div>
       </main>
     </div>
+  )
 }
 
 export default LandingPage;
