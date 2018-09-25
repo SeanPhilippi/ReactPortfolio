@@ -114,6 +114,7 @@ nav .menu_portfolio {
   border-bottom: 2px solid transparent;
 }
 
-nav .menu_about:hover {
+nav .menu_about:hover, .menu_portfolio:hover {
   cursor: pointer;
+  border-bottom: 2px solid #3dc0b0;
 }

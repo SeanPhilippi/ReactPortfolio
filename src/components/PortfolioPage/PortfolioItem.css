@@ -21,7 +21,7 @@
   text-align: center;
 }
 
-.item-desc {
+.item-disc {
   display: flex;
   flex-direction: column;
   padding: 0 .5rem;
@@ -82,7 +82,7 @@ a {
   }
 }
 
-.item-desc {
+.item-disc {
   display: flex;
   flex-direction: column;
   padding: 0 0.5rem;
@@ -93,7 +93,7 @@ a {
 }
 
 @media (max-width: 425px) {
-  .item-desc {
+  .item-disc {
     font-size: 0.875rem;
   }
 }
@@ -111,7 +111,6 @@ a {
 
 .item-link {
   padding: 0 0 0.75rem;
-  display: -ms-flexbox;
   display: flex;
   justify-content: space-around;
   font-size: 0.875rem;
@@ -121,9 +120,10 @@ a {
 .item-link a {
   padding-bottom: 0.25rem;
   border-bottom: 2px solid transparent;
+  color: white;
 }
 
 .item-link a:hover {
   cursor: pointer;
-  border-bottom: 2px solid inherit;
+  border-bottom: 2px solid white;
 }
