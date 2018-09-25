@@ -5,6 +5,7 @@ import PortfolioPage from './components/PortfolioPage/PortfolioPage';
 import Footer from './components/Footer/Footer';
 import SocialMedia from './components/SocialMedia/SocialMedia';
 import './App.css';
+import './base.css';
 
 class App extends Component {
 

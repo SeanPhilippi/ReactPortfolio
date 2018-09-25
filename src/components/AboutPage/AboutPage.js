@@ -11,18 +11,21 @@ const AboutPage = () => {
         <div className="about-wrapper">
           <p>
             I like Javascript and everything web.
-          </p>
+          </p><br/>
           <p>
             Blah blah blah more about me, you know you wanna hire me  Lorem ipsum
             dolor sit amet, consectetur adipisicing elit. Aspernatur sed perspiciatis
             quidem assumenda nostrum dolores, amet totam quam laudantium. Illum labore,
             fugiat molestias laudantium excepturi cum necessitatibus fuga delectus odio.
-          </p>
+          </p><br/>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, laborum.
-          </p>
+          </p><br/>
           <p>
             React-Redux, Node.js, MongoDB, Express, Git, CSS, HTML are some of my handy skills.
+          </p>
+          <p className="text-emoji">
+            \ (•◡•) /
           </p>
         </div>
       </div>
