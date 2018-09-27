@@ -3,8 +3,8 @@ import './PortfolioItem.css'
 
 const PortfolioItem = () => {
   return (
-    <div className="portfolio-wrapper"> 
-      <div className="portfolio-item">
+    <div className="portfolio-wrapper">
+      <div className="portfolio-item"> 
         <div className="project-title">
           Tic-Tac-Toe
         </div>
